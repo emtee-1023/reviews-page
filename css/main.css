@@ -23,13 +23,14 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    max-width: 100vw;
 }
 
 /*Grid Container*/
 main {
     display: grid;
-    grid-template-rows: 250px 250px;
-    grid-template-columns: 500px 600px;
+    grid-template-rows: 250px 300px;
+    grid-template-columns: 500px 550px;
 }
 
 /* Description section */
@@ -50,7 +51,7 @@ main {
 .description .paragraph {
     max-width: 400px;
     font-weight: var(--fontLight);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: var(--darkGrayishMagenta);
 }
 
@@ -158,12 +159,6 @@ main {
     margin-top: 40px;
 }
 
-/* MOBILE BREAKPOINT */
-
-@media screen and (max-width: 375px){
-    
-    }
-    
 
 
     

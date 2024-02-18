@@ -1,0 +1,231 @@
+/* MOBILE STYLING (POTRAIT) */
+
+@media screen and (max-width: 575px){
+    
+    body {
+        justify-content: flex-start;
+        gap: 30px;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        width: 100vw;
+        max-width: 400px;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    /* DESCRIPTION SECTION */
+    .description {
+        align-items: center;
+    }
+
+    .description .title {
+        text-align: center;
+    }
+    
+    .description .paragraph {
+        text-align: center;
+        margin: 0px 25px;
+    }
+
+    /* RATINGS SECTION */
+    .ratings {
+        width: 80%;
+        align-items: center;
+    }
+
+    .ratings .rating {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .ratings .rating1 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating2 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating3 {
+        margin-left: 0;
+    }
+    
+    /* REVIEWS SECTION */ 
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 0px 20px;
+        width: 70%;
+    }
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+    .reviews .review2 {
+        margin-top: 0;
+    }
+    
+    .reviews .review3 {
+        margin-top: 0;
+    }
+
+}
+
+
+/* MOBILE STYLING (LANDSCAPE) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    main {
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 300px auto;
+        grid-template-columns: 50% 50%;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    /* DESCRIPTION SECTION */
+
+    .description .title {
+        margin-left: 50px;
+    }
+    
+    .description .paragraph {
+        margin-left: 50px;
+        
+    }
+
+    /* RATINGS SECTION */
+    .ratings {
+        width: 100%;
+        align-items: center;
+    }
+
+    .ratings .rating {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 70%;
+        gap: 15px;
+    }
+
+    .ratings .rating1 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating2 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating3 {
+        margin-left: 0;
+    }
+    
+    /* REVIEWS SECTION */ 
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 0px 20px;
+        width: 80%;
+    }
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+    .reviews .review2 {
+        margin-top: 0;
+    }
+    
+    .reviews .review3 {
+        margin-top: 0;
+    }
+    
+}
+
+/* TABLET STYLING */
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+
+    main {
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 300px auto;
+        grid-template-columns: 50% 50%;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    /* DESCRIPTION SECTION */
+
+    .description .title {
+        margin-left: 50px;
+    }
+    
+    .description .paragraph {
+        margin-left: 50px;
+        
+    }
+
+    /* RATINGS SECTION */
+    .ratings {
+        width: 100%;
+        align-items: center;
+    }
+
+    .ratings .rating {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 70%;
+        gap: 15px;
+    }
+
+    .ratings .rating1 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating2 {
+        margin-left: 0;
+    }
+    
+    .ratings .rating3 {
+        margin-left: 0;
+    }
+    
+    /* REVIEWS SECTION */ 
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 0px 20px;
+        width: 80%;
+    }
+
+    .review {
+        width: 100%;
+        height: auto;
+    }
+
+    .reviews .review2 {
+        margin-top: 0;
+    }
+    
+    .reviews .review3 {
+        margin-top: 0;
+    } 
+
+}
+
