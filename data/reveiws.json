@@ -1,0 +1,23 @@
+[
+    {
+        "class": "review1",
+        "photo": "images/image-colton.jpg",
+        "user-name": "Colton Smith",
+        "level": "Verified Buyer",
+        "comment": "\"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!\""
+    },
+    {
+        "class": "review2",
+        "photo": "images/image-irene.jpg",
+        "user-name": "Irene Roberts",
+        "level": "Verified Buyer",
+        "comment": "\"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery.\""
+    },
+    {
+        "class": "review3",
+        "photo": "images/image-anne.jpg",
+        "user-name": "Anne Wallace",
+        "level": "Verified Buyer",
+        "comment": "\"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!\""
+    }
+]
